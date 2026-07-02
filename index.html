@@ -74,6 +74,18 @@
       margin-bottom: 24px;
     }
 
+    h2 {
+      font-size: 34px;
+      font-weight: 400;
+      margin-bottom: 18px;
+    }
+
+    h3 {
+      font-size: 22px;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+
     .hero p {
       font-size: 18px;
       color: #eee5d8;
@@ -94,16 +106,28 @@
       background: rgba(255,255,255,.42);
     }
 
-    h2 {
-      font-size: 34px;
-      font-weight: 400;
-      margin-bottom: 18px;
-    }
-
     .intro {
       color: #3f3932;
       margin-bottom: 32px;
       font-size: 17px;
+    }
+
+    .fold-callout {
+      border-left: 3px solid var(--gold);
+      padding: 18px 0 18px 22px;
+      margin-bottom: 32px;
+      color: #3f3932;
+      font-size: 16px;
+      background: rgba(201,162,74,.08);
+    }
+
+    .fold-callout strong {
+      display: block;
+      font-size: 13px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 8px;
     }
 
     .features {
@@ -127,6 +151,89 @@
     }
 
     .feature span {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .steps {
+      display: grid;
+      gap: 22px;
+      margin-bottom: 36px;
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .step-num {
+      width: 42px;
+      height: 42px;
+      border: 1px solid rgba(201,162,74,.55);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-size: 14px;
+      color: var(--gold);
+      letter-spacing: .04em;
+    }
+
+    .step p {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .gallery-section {
+      padding: 72px 56px 88px;
+      background: var(--ivory);
+    }
+
+    .gallery-header {
+      max-width: 720px;
+      margin-bottom: 40px;
+    }
+
+    .gallery-header p {
+      color: #3f3932;
+      font-size: 17px;
+      margin-top: 14px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 28px;
+    }
+
+    .gallery-item {
+      background: var(--cream);
+      border: 1px solid rgba(201,162,74,.35);
+      overflow: hidden;
+    }
+
+    .gallery-item img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
+
+    .gallery-caption {
+      padding: 22px 24px 26px;
+    }
+
+    .gallery-caption strong {
+      display: block;
+      font-size: 13px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+
+    .gallery-caption p {
       color: var(--muted);
       font-size: 15px;
     }
@@ -179,12 +286,17 @@
         padding: 32px;
       }
 
-      .content {
+      .content,
+      .gallery-section {
         padding: 36px 24px;
       }
 
       .panel {
         padding: 28px;
+      }
+
+      .gallery {
+        grid-template-columns: 1fr;
       }
     }
   </style>
@@ -199,52 +311,126 @@
         <div class="eyebrow">Wedding table details</div>
         <h1>Black Origami Crane Place Cards</h1>
         <p>
-          Hand-folded crane card holders in matte black paper, finished with
-          white lettering, gold accents, and quiet ceremonial elegance.
+          Matte black paper with white lettering and gold accents — a quiet,
+          sculptural detail for the table. Arrives flat; you fold each crane
+          into place.
         </p>
       </div>
     </section>
 
     <section class="content">
       <div class="panel">
-        <div class="eyebrow">Exclusive reception pieces</div>
-        <h2>Minimal, symbolic, unforgettable.</h2>
+        <div class="eyebrow">Fold-it-yourself reception pieces</div>
+        <h2>Elegant on the table. Yours to fold.</h2>
 
         <div class="accent"></div>
 
         <p class="intro">
-          A refined place card holder for weddings, private dinners, and formal
-          celebrations. Each crane is designed to hold a guest name card while
-          adding sculptural detail to the table.
+          Each set includes printed crane sheets with fold guides and
+          gold-accented patterns. Take a calm moment to fold them yourself,
+          then tuck in your guest cards for a reception detail that feels
+          personal, considered, and beautifully handmade.
         </p>
+
+        <div class="fold-callout">
+          <strong>Not pre-folded</strong>
+          These cranes do not arrive assembled. Each piece comes as a flat,
+          printed sheet — part of the charm is the simple fold that turns
+          paper into a place card holder at your own pace.
+        </div>
 
         <div class="features">
           <div class="feature">
-            <strong>Material</strong>
-            <span>Matte black folded paper with white and metallic gold detail.</span>
+            <strong>What arrives</strong>
+            <span>Flat printed sheets with fold lines, gold botanical and geometric accents, and room for your guest names.</span>
           </div>
 
           <div class="feature">
-            <strong>Use</strong>
-            <span>Place cards, escort cards, table names, menus, or small signs.</span>
+            <strong>The fold</strong>
+            <span>A guided origami fold — straightforward, satisfying, and meant to be part of the preparation.</span>
+          </div>
+
+          <div class="feature">
+            <strong>On the table</strong>
+            <span>Finished cranes hold escort cards, place cards, table names, menus, or small signs with quiet ceremony.</span>
           </div>
 
           <div class="feature">
             <strong>Style</strong>
-            <span>Japanese-inspired, formal, modern, and understated.</span>
+            <span>Japanese-inspired, formal, modern, and understated in matte black, ivory, and gold.</span>
+          </div>
+        </div>
+
+        <h3>From flat sheet to place card</h3>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <p>Receive the printed flat sheets — each one marked with fold guides and gold detail.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <p>Fold along the guides at your own pace. No rush; the process is part of the experience.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <p>Slide in your guest card and set each crane at the table for a finished look that feels truly yours.</p>
           </div>
         </div>
 
         <div class="cta-row">
           <a href="#" class="button">Request a Set</a>
-          <a href="#" class="button secondary">View Details</a>
+          <a href="#gallery" class="button secondary">See Flat &amp; Folded</a>
         </div>
 
         <p class="note">
-          Product image: <code>dark-swan-origami-wedding-card-holders.png</code> in the same folder.
+          Each set is made to be folded by you — a small ritual before the celebration begins.
         </p>
       </div>
     </section>
   </main>
+
+  <section class="gallery-section" id="gallery">
+    <div class="gallery-header">
+      <div class="eyebrow">What you receive &amp; what you create</div>
+      <h2>Flat sheets, folded cranes.</h2>
+      <p>
+        The product ships as printed paper, not pre-assembled origami. The
+        photos below show the flat sheet you start with and the finished crane
+        once folded and ready for your guest cards.
+      </p>
+    </div>
+
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img
+          src="origami-crane-flat-sheet.png"
+          alt="Flat printed black origami crane sheet with gold fold guides and corner patterns"
+        />
+        <figcaption class="gallery-caption">
+          <strong>Before folding</strong>
+          <p>
+            Each crane begins as a flat, printed square with fold lines and
+            gold-accented corners. Nothing comes pre-folded — this is what
+            arrives in your set.
+          </p>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img
+          src="origami-crane-finished.png"
+          alt="Finished black origami crane place card holder with gold accents holding a guest card"
+        />
+        <figcaption class="gallery-caption">
+          <strong>After folding</strong>
+          <p>
+            Once folded, each crane becomes a sculptural place card holder —
+            matte black paper, gold detail, and a slot ready for your guest
+            names at the table.
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
 </body>
 </html>
