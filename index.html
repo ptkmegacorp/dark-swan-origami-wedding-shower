@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black Origami Crane Place Cards</title>
+
+  <style>
+    :root {
+      --black: #090909;
+      --soft-black: #151515;
+      --ivory: #f7f1e8;
+      --cream: #fffaf1;
+      --gold: #c9a24a;
+      --muted: #8f8678;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--ivory);
+      color: var(--black);
+      line-height: 1.6;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+    }
+
+    .hero {
+      background:
+        linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.65)),
+        url("dark-swan-origami-wedding-card-holders.png");
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      padding: 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      color: var(--cream);
+    }
+
+    .brand {
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      font-size: 13px;
+      color: var(--gold);
+    }
+
+    .hero-copy {
+      max-width: 560px;
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: .18em;
+      font-size: 12px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(44px, 7vw, 92px);
+      line-height: .92;
+      font-weight: 400;
+      margin-bottom: 24px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #eee5d8;
+      max-width: 480px;
+    }
+
+    .content {
+      padding: 64px 56px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: var(--cream);
+    }
+
+    .panel {
+      border: 1px solid rgba(201,162,74,.45);
+      padding: 42px;
+      background: rgba(255,255,255,.42);
+    }
+
+    h2 {
+      font-size: 34px;
+      font-weight: 400;
+      margin-bottom: 18px;
+    }
+
+    .intro {
+      color: #3f3932;
+      margin-bottom: 32px;
+      font-size: 17px;
+    }
+
+    .features {
+      display: grid;
+      gap: 18px;
+      margin-bottom: 36px;
+    }
+
+    .feature {
+      border-top: 1px solid rgba(0,0,0,.12);
+      padding-top: 16px;
+    }
+
+    .feature strong {
+      display: block;
+      font-size: 14px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 4px;
+    }
+
+    .feature span {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .cta-row {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .button {
+      display: inline-block;
+      background: var(--black);
+      color: var(--cream);
+      text-decoration: none;
+      padding: 14px 24px;
+      border: 1px solid var(--black);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: var(--black);
+      border-color: var(--gold);
+    }
+
+    .note {
+      margin-top: 26px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .accent {
+      width: 84px;
+      height: 1px;
+      background: var(--gold);
+      margin: 26px 0;
+    }
+
+    @media (max-width: 850px) {
+      .page {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        min-height: 70vh;
+        padding: 32px;
+      }
+
+      .content {
+        padding: 36px 24px;
+      }
+
+      .panel {
+        padding: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="brand">Matoi Studio</div>
+
+      <div class="hero-copy">
+        <div class="eyebrow">Wedding table details</div>
+        <h1>Black Origami Crane Place Cards</h1>
+        <p>
+          Hand-folded crane card holders in matte black paper, finished with
+          white lettering, gold accents, and quiet ceremonial elegance.
+        </p>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="panel">
+        <div class="eyebrow">Exclusive reception pieces</div>
+        <h2>Minimal, symbolic, unforgettable.</h2>
+
+        <div class="accent"></div>
+
+        <p class="intro">
+          A refined place card holder for weddings, private dinners, and formal
+          celebrations. Each crane is designed to hold a guest name card while
+          adding sculptural detail to the table.
+        </p>
+
+        <div class="features">
+          <div class="feature">
+            <strong>Material</strong>
+            <span>Matte black folded paper with white and metallic gold detail.</span>
+          </div>
+
+          <div class="feature">
+            <strong>Use</strong>
+            <span>Place cards, escort cards, table names, menus, or small signs.</span>
+          </div>
+
+          <div class="feature">
+            <strong>Style</strong>
+            <span>Japanese-inspired, formal, modern, and understated.</span>
+          </div>
+        </div>
+
+        <div class="cta-row">
+          <a href="#" class="button">Request a Set</a>
+          <a href="#" class="button secondary">View Details</a>
+        </div>
+
+        <p class="note">
+          Product image: <code>dark-swan-origami-wedding-card-holders.png</code> in the same folder.
+        </p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
