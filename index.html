@@ -59,7 +59,7 @@
 
     .cards {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 20px;
     }
 
@@ -127,7 +127,19 @@
       color: var(--gold);
     }
 
-    @media (max-width: 700px) {
+    .card--shower-polished .card__eyebrow {
+      color: var(--gold);
+    }
+
+    .card--shower-polished {
+      border-top: 4px solid #151515;
+    }
+
+    .card--shower-polished .card__link {
+      color: var(--text-soft);
+    }
+
+    @media (max-width: 900px) {
       .cards {
         grid-template-columns: 1fr;
       }
@@ -157,15 +169,25 @@
         <span class="card__link">View place card set →</span>
       </a>
 
-      <a class="card card--shower" href="shower-gift-editions/index.html">
+      <a class="card card--shower-polished" href="wedding-shower-gift-and-activity-to-table/index.html">
         <div class="card__eyebrow">Fold at the shower</div>
-        <h2>Shower Gift Editions</h2>
+        <h2>Shower Gift &amp; Activity</h2>
         <p>
-          A group gift and activity for the bridal shower. Guests fold the
-          cranes together — then those same cranes become your wedding table
-          place cards. Three themes to start.
+          Fold together at the shower, set them on the table at the wedding.
+          An expanded guide to the group gift — activity, keepsake, and
+          reception detail in one.
         </p>
         <span class="card__link">View shower gift guide →</span>
+      </a>
+
+      <a class="card card--shower" href="shower-gift-editions/index.html">
+        <div class="card__eyebrow">Themed editions</div>
+        <h2>Shower Gift Themes</h2>
+        <p>
+          The same shower-to-table concept in three everyday themes — Good
+          Wishes, Garden Party, and Night Sky.
+        </p>
+        <span class="card__link">View themed editions →</span>
       </a>
     </div>
   </div>
