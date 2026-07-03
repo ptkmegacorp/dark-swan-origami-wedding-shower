@@ -276,6 +276,123 @@
       margin: 26px 0;
     }
 
+    .shower-section {
+      padding: 88px 56px 96px;
+      background: var(--soft-black);
+      color: var(--cream);
+    }
+
+    .shower-inner {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .shower-header {
+      max-width: 720px;
+      margin-bottom: 48px;
+    }
+
+    .shower-header .eyebrow {
+      color: var(--gold);
+    }
+
+    .shower-header h2 {
+      color: var(--cream);
+      margin-bottom: 16px;
+    }
+
+    .shower-header p {
+      color: #d8cfc0;
+      font-size: 17px;
+    }
+
+    .shower-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 28px;
+      margin-bottom: 40px;
+    }
+
+    .shower-panel {
+      border: 1px solid rgba(201,162,74,.35);
+      padding: 36px 34px;
+      background: rgba(255,255,255,.04);
+    }
+
+    .shower-panel h3 {
+      color: var(--cream);
+      margin-bottom: 14px;
+    }
+
+    .shower-panel p,
+    .shower-panel li {
+      color: #b8afa3;
+      font-size: 15px;
+    }
+
+    .shower-panel ul {
+      list-style: none;
+      display: grid;
+      gap: 14px;
+    }
+
+    .shower-panel li {
+      border-top: 1px solid rgba(255,255,255,.08);
+      padding-top: 14px;
+    }
+
+    .shower-panel li strong {
+      display: block;
+      font-size: 13px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 4px;
+      font-weight: 400;
+    }
+
+    .shower-flow {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
+      margin-bottom: 42px;
+    }
+
+    .shower-step {
+      border-top: 1px solid rgba(201,162,74,.45);
+      padding-top: 18px;
+    }
+
+    .shower-step span {
+      display: block;
+      font-size: 12px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+
+    .shower-step p {
+      color: #d8cfc0;
+      font-size: 15px;
+    }
+
+    .shower-section .button {
+      background: var(--gold);
+      color: var(--black);
+      border-color: var(--gold);
+    }
+
+    .shower-section .button.secondary {
+      background: transparent;
+      color: var(--cream);
+      border-color: rgba(201,162,74,.55);
+    }
+
+    .shower-section .note {
+      color: #8f8678;
+    }
+
     @media (max-width: 850px) {
       .page {
         grid-template-columns: 1fr;
@@ -287,7 +404,8 @@
       }
 
       .content,
-      .gallery-section {
+      .gallery-section,
+      .shower-section {
         padding: 36px 24px;
       }
 
@@ -296,6 +414,11 @@
       }
 
       .gallery {
+        grid-template-columns: 1fr;
+      }
+
+      .shower-grid,
+      .shower-flow {
         grid-template-columns: 1fr;
       }
     }
@@ -430,6 +553,88 @@
           </p>
         </figcaption>
       </figure>
+    </div>
+  </section>
+
+  <section class="shower-section" id="shower-gift">
+    <div class="shower-inner">
+      <div class="shower-header">
+        <div class="eyebrow">Bridal shower gift edition</div>
+        <h2>Fold together at the shower. Set them on the table at the wedding.</h2>
+        <p>
+          A gift version of the same concept — part activity, part keepsake,
+          part reception detail. Guests gather around the table, fold the
+          cranes together, and what they make becomes the ornament your
+          wedding tables were waiting for.
+        </p>
+      </div>
+
+      <div class="shower-flow">
+        <div class="shower-step">
+          <span>At the shower</span>
+          <p>
+            Open the set as a shared moment — friends and family fold cranes
+            while stories, laughter, and well-wishes fill the room.
+          </p>
+        </div>
+        <div class="shower-step">
+          <span>After the party</span>
+          <p>
+            Each folded crane travels home with the couple, already infused
+            with the hands and hearts of the people who love them.
+          </p>
+        </div>
+        <div class="shower-step">
+          <span>On the wedding day</span>
+          <p>
+            Those same cranes return as place card holders — table ornaments
+            that are beautiful, personal, and impossible to buy off a shelf.
+          </p>
+        </div>
+      </div>
+
+      <div class="shower-grid">
+        <div class="shower-panel">
+          <h3>Why it works as a gift</h3>
+          <p>
+            Most shower presents are lovely for a day. This one asks everyone
+            to take part — then lives on at the reception as proof that the
+            celebration started long before the vows.
+          </p>
+        </div>
+
+        <div class="shower-panel">
+          <h3>What makes it interactive</h3>
+          <ul>
+            <li>
+              <strong>Group folding</strong>
+              A gentle, guided activity anyone can join — no craft expertise required.
+            </li>
+            <li>
+              <strong>Flat sheets, same as the wedding set</strong>
+              Every crane still arrives unassembled, ready to be folded together.
+            </li>
+            <li>
+              <strong>Two moments, one object</strong>
+              The shower creates the cranes; the wedding displays them.
+            </li>
+            <li>
+              <strong>Made to be kept</strong>
+              A table ornament with memory built in — not a disposable party game.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cta-row">
+        <a href="#" class="button">Request a Shower Gift Set</a>
+        <a href="#" class="button secondary">Ask About Custom Quantities</a>
+      </div>
+
+      <p class="note">
+        Perfect for bridal showers, bridesmaid gatherings, or a meaningful
+        group gift from the wedding party — fold once, cherish twice.
+      </p>
     </div>
   </section>
 </body>
