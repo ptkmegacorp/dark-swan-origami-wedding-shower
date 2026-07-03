@@ -107,7 +107,7 @@ Same fold, same three steps. Different colors and patterns on the paper.
 - Showers where the host wants an activity, not just a pile of presents
 - Wedding parties chipping in on one group gift
 - Couples who want their table details to feel personal without DIY-ing everything from scratch
-- Anyone who likes the [solo fold-at-home set](../) but wants the folding to happen with their people
+- Anyone who likes the [solo fold-at-home set](../place-card-holders/) but wants the folding to happen with their people
 
 ---
 
